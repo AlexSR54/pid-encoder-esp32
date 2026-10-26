@@ -1,0 +1,17 @@
+dependencies:
+  idf:
+    source:
+      type: idf
+    version: 5.3.6
+  ssd1306:
+    dependencies: []
+    source:
+      path: /home/alexsr/Documentos/Sistema Embebidos 2/Proyecto PID Encoder Final/PID Encoder/components/ssd1306
+      type: local
+    version: 1.1.2
+direct_dependencies:
+- chill-sam/ssd1306
+- idf
+manifest_hash: 3d6add61df4e7452110196db776740725eb098c02a265c443bbfce2741932f0f
+target: esp32
+version: 2.0.0
